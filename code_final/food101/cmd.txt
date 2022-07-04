@@ -1,0 +1,8 @@
+export DOCKER_HOST=ssh://10.0.13.177export DOCKER_HOST=ssh://10.0.13.177
+docker build -t experiments .
+docker run --gpus all --shm-size=8g -it --rm -v /home/$USER/cluster/experiments/results:/workspace/results -v /home/$USER/cluster/experiments/src:/workspace/src experiments /bin/bash -c 'python main_exp.py'
+
+
+docker run --gpus all --shm-size=8g -it --rm -v /home/$USER/cluster/experiments/res:/workspace/res -v /home/$USER/cluster/experiments/src:/workspace/src testrise /bin/bash -c 'python main_exp.py' 
+
+docker run --gpus all --shm-size=8g -it --rm -v /home/$USER/cluster/experiments/resnet/results:/workspace/resnet/results -v /home/$USER/cluster/experiments/src:/workspace/src experiments /bin/bash -c 'python main_exp.py'
