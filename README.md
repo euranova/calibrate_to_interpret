@@ -117,15 +117,27 @@ To plot ssim :
  
 
 
-Note : this folder contains the dirichlet_python library :  
+Note : this folder contains the dirichlet_python library  ! 
+
+To cite our work 
 ref :  
 ```
-@inproceedings{kull2019dircal,
-  title={Beyond temperature scaling: Obtaining well-calibrated multi-class probabilities with Dirichlet calibration},
-  author={Kull, Meelis and Nieto, Miquel Perello and K{\"a}ngsepp, Markus and Silva Filho, Telmo and Song, Hao and Flach, Peter},
-  booktitle={Advances in Neural Information Processing Systems},
-  pages={12295--12305},
-  year={2019}
+@InProceedings{10.1007/978-3-031-26387-3_21,
+author="Scafarto, Gregory
+and Posocco, Nicolas
+and Bonnefoy, Antoine",
+editor="Amini, Massih-Reza
+and Canu, St{\'e}phane
+and Fischer, Asja
+and Guns, Tias
+and Kralj Novak, Petra
+and Tsoumakas, Grigorios",
+title="Calibrate to Interpret",
+booktitle="Machine Learning and Knowledge Discovery in Databases",
+year="2023",
+publisher="Springer International Publishing",
+address="Cham",
+pages="340--355"
 }
 ```
 
