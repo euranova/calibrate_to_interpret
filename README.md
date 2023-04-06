@@ -119,8 +119,7 @@ To plot ssim :
 
 Note : this folder contains the dirichlet_python library  ! 
 
-To cite our work 
-ref :  
+To cite our work :  
 ```
 @InProceedings{10.1007/978-3-031-26387-3_21,
 author="Scafarto, Gregory
